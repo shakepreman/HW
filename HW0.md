@@ -37,6 +37,34 @@ git rebase master
 ```
 ![image](https://raw.githubusercontent.com/shakepreman/HW/master/assets/level4.PNG)
 
+####Bonus Rampup Level 1
+```
+git checkout C4
+```
+![image](https://raw.githubusercontent.com/shakepreman/HW/master/assets/bonus1.PNG)
+
+####Bonus Rampup Level 2
+```
+git checkout bugFix^
+```
+![image](https://raw.githubusercontent.com/shakepreman/HW/master/assets/bonus2.PNG)
+
+####Bonus Rampup Level 3
+```
+git branch -f bugFix HEAD~2;
+git checkout HEAD^;
+git branch -f master C6
+```
+![image](https://raw.githubusercontent.com/shakepreman/HW/master/assets/bonus3.PNG)
+
+####Bonus Rampup Level 4
+```
+git reset HEAD^;
+git checkout pushed;
+git revert HEAD
+```
+![image](https://raw.githubusercontent.com/shakepreman/HW/master/assets/bonus4.PNG)
+
 ####Post-Commit
 ```
 #!/bin/sh
