@@ -1,5 +1,4 @@
 # HW #1 Provisioning and Configuring Servers
-===============
 ### Setup Steps ###
 * install npm
 * install node js
